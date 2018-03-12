@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+.jumbotron {
+    padding: 2%;
+    background: rgb(94, 190, 65);
+    color: #fff;
+}
+
+main {
+    padding: 2%;
+}
+
+#pregame {
+    margin-bottom: 8%;
+}
+
+#word-attempt-form {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.bad-attempt {
+    color: #df2825; 
+}
+
+
+.tag-lg {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.1);
+}
+
+.tag-sm {
+    font-size: 14px;
+    margin-left: 0.4em;
+}
+
+.word-submission {
+    font-size: 30px;
+    color: rgb(212, 0, 255);
+    font-weight: normal;
+}
+
+.allowed-letter {
+    font-size: 40px;
+    color: rgb(0, 255, 21);
+}
+
+.scoreboard-data {
+    font-size: 60px;
+}
+
+input {
+    text-align: center;
+    padding: 1%;
+    font-size: 30px;
+    color: rgb(155, 151, 151);
+}
+
+input:focus {
+    border: 2px solid rgb(244, 226, 66); 
+    outline-color: #4285f4; 
+}
